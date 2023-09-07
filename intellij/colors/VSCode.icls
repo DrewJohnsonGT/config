@@ -4,7 +4,7 @@
     <property name="created">2023-07-05T20:12:27</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2023.1.2.0.0</property>
-    <property name="modified">2023-09-07T09:47:29</property>
+    <property name="modified">2023-09-07T10:50:45</property>
     <property name="originalScheme">black copy4</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -805,7 +805,7 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="f7d736" />
+        <option name="FOREGROUND" value="dcdcaa" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -3117,11 +3117,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="Scala Class">
-      <value>
-        <option name="FOREGROUND" value="3d81b8" />
-      </value>
-    </option>
     <option name="Scala Class method call">
       <value>
         <option name="FOREGROUND" value="dcdcaa" />
@@ -3504,7 +3499,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f7d736" />
+        <option name="FOREGROUND" value="dcdcaa" />
       </value>
     </option>
     <option name="Wrong number">
