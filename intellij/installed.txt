@@ -1,0 +1,13 @@
+com.vecheslav.darculaDarkerTheme
+com.markskelton.one-dark-theme
+dev.patrickpichler.darculaPitchBlackTheme
+com.github.copilot
+org.intellij.plugins.hcl
+idea.plugin.protoeditor
+com.intellij.plugins.vscodekeymap
+name.kropp.intellij.makefile
+com.samdark.intellij-visual-studio-code-dark-plus
+com.jetbrains.packagesearch.intellij-plugin
+org.intellij.scala
+zielu.gittoolbox
+com.adrian.dima.theme.dark.orange
