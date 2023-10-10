@@ -11,6 +11,10 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="shift alt button1" />
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
@@ -20,10 +24,17 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
   <action id="FileChooser.TogglePathBar" />
   <action id="FileChooserList.Root" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta t" />
@@ -32,6 +43,7 @@
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
+  <action id="List-selectLastRowExtendSelection" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
@@ -46,6 +58,9 @@
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="Vcs.Push" />
   <action id="android.device.power.button" />

@@ -4,7 +4,7 @@
     <property name="created">2023-07-05T20:12:27</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2023.1.2.0.0</property>
-    <property name="modified">2023-09-07T10:50:45</property>
+    <property name="modified">2023-10-10T11:13:52</property>
     <property name="originalScheme">black copy4</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -750,7 +750,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="31ddfd" />
+        <option name="FOREGROUND" value="91cbfd" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1412,13 +1412,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="f7d736" />
-        <option name="EFFECT_COLOR" value="f7d736" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="dcdcaa" />
@@ -1442,7 +1435,7 @@
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="a9ca5b" />
+        <option name="FOREGROUND" value="3d81b8" />
       </value>
     </option>
     <option name="JFLEX.OPTION_KEYWORD">
@@ -2151,8 +2144,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ebebeb" />
-        <option name="BACKGROUND" value="141414" />
+        <option name="EFFECT_COLOR" value="ff9a26" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
@@ -2895,6 +2887,7 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="ff9a26" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -3102,7 +3095,7 @@
     </option>
     <option name="Scala Annotation name">
       <value>
-        <option name="FOREGROUND" value="ff9a26" />
+        <option name="FOREGROUND" value="4dc7af" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -3120,6 +3113,11 @@
     <option name="Scala Class method call">
       <value>
         <option name="FOREGROUND" value="dcdcaa" />
+      </value>
+    </option>
+    <option name="Scala Immutable Collection">
+      <value>
+        <option name="FOREGROUND" value="91cbfd" />
       </value>
     </option>
     <option name="Scala Invalid escape in string">
@@ -3149,6 +3147,7 @@
         <option name="FOREGROUND" value="4dc7af" />
       </value>
     </option>
+    <option name="Scala Mutable Collection" baseAttributes="" />
     <option name="Scala Number">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -3493,7 +3492,8 @@
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="141414" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="a28c70" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

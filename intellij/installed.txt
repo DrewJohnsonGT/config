@@ -7,6 +7,7 @@ idea.plugin.protoeditor
 com.intellij.plugins.vscodekeymap
 name.kropp.intellij.makefile
 com.samdark.intellij-visual-studio-code-dark-plus
+Docker
 com.jetbrains.packagesearch.intellij-plugin
 org.intellij.scala
 zielu.gittoolbox
