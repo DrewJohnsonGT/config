@@ -13,7 +13,7 @@
   "editor.foldingStrategy": "indentation",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.guides.bracketPairs": false,
   "editor.inlineSuggest.enabled": true,
@@ -29,6 +29,7 @@
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": false,
   "editor.wordWrap": "on",
+  "editor.lineHeight": 18,
   "editor.tokenColorCustomizations": {
     "comments": {
       "foreground": "#828282"
@@ -56,7 +57,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Default High Contrast",
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.panel.defaultLocation": "right",
   "workbench.startupEditor": "newUntitledFile",
@@ -97,15 +97,15 @@
     "editor.findMatchBorder": "#ff9a2675",
     "editor.findMatchHighlightBackground": "#eeeeee44",
     "editor.foreground": "#ffffff",
-    "editor.inactiveSelectionBackground": "#6688cc",
+    "editor.inactiveSelectionBackground": "#6688ccae",
     "editor.lineHighlightBorder": "#ff9a26",
     "editor.selectionBackground": "#cd5429",
     "editor.selectionForeground": "#FFFFFF",
     "editor.selectionHighlightBackground": "#cd542990",
-    "editorError.foreground": "#cd5429bb", // squiggly line
-    "editorError.border": "#000000", // additional border under squiggly line
-    "editorWarning.foreground": "#cd5429bb", // squiggly line
-    "editorWarning.border": "#000000", // additional border under squiggly line
+    "editorError.foreground": "#000000", // squiggly line
+    "editorError.border": "#ee3b27", // additional border under squiggly line
+    "editorWarning.foreground": "#000000", // squiggly line
+    "editorWarning.border": "#ffae00", // additional border under squiggly line
     "editorGroup.border": "#ff9a2675",
     "editorGroupHeader.border": "#000000",
     "editorGroupHeader.noTabsBackground": "#000000",
@@ -114,7 +114,7 @@
     "editorHint.foreground": "#e7dc60",
     "editorHoverWidget.background": "#000000",
     "editorHoverWidget.border": "#ff9a2675",
-    "editorIndentGuide.activeBackground": "#505050",
+    "editorIndentGuide.activeBackground1": "#505050",
     "editorLineNumber.activeForeground": "#ff9a26",
     "editorLineNumber.foreground": "#ff9a26",
     "editorLink.activeForeground": "#0063a5",
@@ -238,9 +238,6 @@
     "**/.bloop": true,
     "**/.metals": true,
     "**/.ammonite": true
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
   },
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
