@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>Custom Color Presets</key>
@@ -221,6 +223,8 @@
 	<string>Default</string>
 	<key>Default Bookmark Guid</key>
 	<string>DE1594F3-E17A-42B6-8215-516BE3392655</string>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -570,6 +574,28 @@
 					<key>Text</key>
 					<string>0x7f</string>
 				</dict>
+				<key>0x7b-0x120000-0x21</key>
+				<dict>
+					<key>Action</key>
+					<integer>31</integer>
+					<key>Label</key>
+					<string></string>
+					<key>Text</key>
+					<string></string>
+					<key>Version</key>
+					<integer>1</integer>
+				</dict>
+				<key>0x7d-0x120000-0x1e</key>
+				<dict>
+					<key>Action</key>
+					<integer>30</integer>
+					<key>Label</key>
+					<string></string>
+					<key>Text</key>
+					<string></string>
+					<key>Version</key>
+					<integer>1</integer>
+				</dict>
 				<key>0xf700-0x220000</key>
 				<dict>
 					<key>Action</key>
@@ -895,6 +921,8 @@
 								<integer>0</integer>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
+								<key>font</key>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -918,6 +946,8 @@
 								<integer>0</integer>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
+								<key>font</key>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -941,6 +971,8 @@
 								<integer>0</integer>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
+								<key>font</key>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -970,6 +1002,8 @@
 								<integer>0</integer>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
+								<key>font</key>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -1062,6 +1096,10 @@
 	<integer>3</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
+	<key>ToolbeltTools</key>
+	<array>
+		<string>Recent Directories</string>
+	</array>
 	<key>UseBorder</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
